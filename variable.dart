@@ -19,4 +19,11 @@ void main() {
   // var #demo =1;
   // var final =2;
   //We cannot use reserved keyword as variable name
+
+  final data = 977;
+  // data = 978;  the final variable data can only be set once
+  print(data);
+
+  const keys = 45.78;
+  print(keys);
 }
